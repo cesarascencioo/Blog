@@ -1,0 +1,379 @@
+
+@font-face {
+    font-family: BlowBrush;
+    src: url(../fonts/blowbrush.otf);
+}
+
+@font-face {
+    font-family: Alisandra Demo;
+    src: url(../fonts/alisandrademo.ttf);
+}
+
+@font-face {
+    font-family: Alisandra Demo;
+    src: url(../fonts/blacksword.otf);
+}
+
+.navbar2 {
+    margin: 0;
+    padding: 0;
+    background-color: #FDFDFD;
+    height: 6vmin;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    border-bottom: outset #E0E0E0 0.2vmin;
+    transition: all .3s ease-in-out;
+    top: 0;
+}
+
+.nav-up {
+    top: -6vmin;
+}
+
+.share-logo {
+    position: relative;
+    margin-right: 1%;
+    float: right;
+    right: 15%;
+    height: 4vmin;
+    top: 1vmin;
+}
+
+.share-logo:hover {
+    -webkit-animation: pulse 0.5s;
+    animation: pulse 0.5s;
+}
+
+.back {
+    position: relative;
+    margin-right: 1%;
+    float: left;
+    left: 15%;
+    height: 3.7vmin;
+    top: 1.1vmin;
+    padding-right: 8%;
+}
+
+.back:hover {
+    -webkit-animation: pulse 0.5s;
+    animation: pulse 0.5s;
+}
+
+.back4 {
+    position: relative;
+    margin-right: 1%;
+    float: left;
+    left: 15%;
+    height: 3.7vmin;
+    top: 1.1vmin;
+    padding-right: 8%;
+}
+
+.back4:hover {
+    -webkit-animation: pulse 0.5s;
+    animation: pulse 0.5s;
+}
+
+.back1 {
+    position: relative;
+    margin-right: 1%;
+    float: left;
+    left: 15%;
+    height: 4vmin;
+    top: 1.1vmin;
+    padding-right: 8%;
+}
+
+.back1:hover {
+    -webkit-animation: pulse 0.5s;
+    animation: pulse 0.5s;
+}
+
+.back2 {
+    position: relative;
+    margin-right: 1%;
+    float: left;
+    left: 15%;
+    height: 4vmin;
+    top: 1.1vmin;
+    padding-right: 8%;
+}
+
+.back2:hover {
+    -webkit-animation: pulse 0.5s;
+    animation: pulse 0.5s;
+}
+
+.back3 {
+    position: relative;
+    margin-right: 1%;
+    float: right;
+    right: 15%;
+    height: 4vmin;
+    top: 1.1vmin;
+}
+
+.back3:hover {
+    -webkit-animation: pulse 0.5s;
+    animation: pulse 0.5s;
+}
+
+.darken {
+    height: 60vh;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/airport.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .darken {
+        height: 45vh;
+    }
+}
+
+.post-title {
+    font-size: 7.5vmin;
+    font-family: "Bodoni 72 Oldstyle";
+    font-weight: bold;
+    color: rgb(248, 248, 248);
+    text-align: center;
+    position: relative;
+    width: 68%;
+    top: 10vmin;
+    left: 16%;
+}
+
+.profile {
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 50%;
+    background: url(../images/profile.png) center center no-repeat;
+    background-size: cover;
+    z-index: 10;
+    position: relative;
+    left: 44.5%;
+    top: -10vmin;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .profile {
+        left: 40%;
+    }
+}
+
+@media only screen and (max-device-width: 800px) {
+    .profile {
+        left: 40%;
+    }
+}
+
+.story {
+    width: 55%;
+    font-family: "Helvetica Neue";
+    font-size: 3vmin;
+    font-weight: 200;
+    color: black;
+    left: 22.5%;
+    position: relative;
+    top: 0.5vmin;
+    border-top: solid 0.2vmin #4A4A4A;
+    padding-top: 4vmin;
+}
+
+span {
+    text-indent: 1.5em;
+    display: inline-block;
+}
+
+.story::first-letter {
+    float: left;
+    color: black;
+    font-size: 10vmin;
+    line-height: 8vmin;
+    padding-right: 1.5vmin;
+    font-family: Georgia;
+}
+
+
+/*.story::first-line{
+     font-weight:400;
+ }*/
+
+br {
+    line-height: 8.5vmin;
+}
+
+.follow {
+    color: #800020;
+    border: solid #800020;
+    text-align: center;
+    border-radius: 1em;
+    font-family: "Arial Rounded MT Bold";
+    font-size: 2.2vmin;
+    border-width: 0.3vmin;
+    width: 14.5vmin;
+    position: relative;
+    bottom: -21vmin;
+    left: 2.7vmin;
+    height: 3.5vmin;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.follow:hover {
+    background: #800020;
+    color: white;
+}
+
+.follow-click {
+    background: #800020;
+    color: white;
+    text-align: center;
+    border-radius: 1em;
+    font-family: "Arial Rounded MT Bold";
+    font-size: 2.2vmin;
+    border-width: 0.3vmin;
+    width: 14.5vmin;
+    position: relative;
+    bottom: -21vmin;
+    left: 2.7vmin;
+    height: 3.5vmin;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.heart-outline {
+    position: relative;
+    left: 22.5%;
+    color: #9B9B9B;
+    font-size: 3vmin;
+}
+
+.heart-outline2 {
+    position: relative;
+    left: 22.5%;
+    color: #9B9B9B;
+    font-size: 3vmin;
+}
+
+.heart-red {
+    color: lightgrey
+}
+
+.comment-outline {
+    position: relative;
+    left: 25%;
+    color: #9B9B9B;
+    font-size: 3.4vmin;
+}
+
+.comment-outline2 {
+    position: relative;
+    left: 25%;
+    color: #9B9B9B;
+    height: 1em;
+    font-size: 3vmin;
+}
+
+.number {
+    font-family: "Arial Unicode MS";
+}
+
+.second-picture {
+    height: 40vh;
+    width: 55%;
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/airplane2.png) no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    left: 22.5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .second-picture {
+        height: 30vh;
+    }
+}
+
+.story2 {
+    width: 55%;
+    font-family: "Helvetica Neue";
+    font-size: 3vmin;
+    font-weight: 200;
+    color: black;
+    left: 22.5%;
+    position: relative;
+    border-bottom: solid 0.2vmin #4A4A4A;
+    padding-bottom: 4vmin;
+}
+
+.comment-box {
+    position: relative;
+    left: 22.5%;
+    top: 4vmin;
+    border: solid 0.2vmin #D8D8D8;
+    min-height: 20vh;
+    width: 55%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    background: #FDFDFD;
+    margin-bottom: 2.5vmin;
+}
+
+@media only screen and (max-device-width: 800px) {
+    .comment-box {
+        min-height: 10vh;
+        margin-bottom: 2vmin;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .comment-box {
+        min-height: 7vh;
+        margin-bottom: .5vmin;
+    }
+}
+
+.add-response {
+    color: darkgrey;
+    font-family: "Helvetica Neue";
+    font-size: 2.4vmin;
+    padding-left: 1vmin;
+}
+
+.post {
+    color: #9B9B9B;
+    border: solid #9B9B9B;
+    text-align: center;
+    border-radius: 1em;
+    font-family: "Arial Rounded MT Bold";
+    font-size: 2vmin;
+    border-width: 0.25vmin;
+    width: 9vmin;
+    position: relative;
+    height: 3vmin;
+    display: table-cell;
+    vertical-align: middle;
+    float: right;
+    padding-top: .2vmin;
+    right: 22.5%;
+}
+
+.post:hover {
+    background: #9B9B9B;
+    color: white;
+}
+
+.comment-profile{
+    height: 12vmin;
+    width: 12vmin;
+    border-radius: 50%;
+    background: url(../images/comment-profile.jpg) center center no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 22.5%;
+    margin-top:15vmin;
+}
